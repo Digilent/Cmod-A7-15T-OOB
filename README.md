@@ -58,12 +58,16 @@ Demo Setup
 
 <Note for maintainers: This project does not require any additional configuration of application or bsp projects. Projects that require any of this configuration should have the steps required to do so described here.>
 
-16. Plug in a test circuit to the Cmod A7-15T's analog input pins.
-17. Open a serial terminal application (such as TeraTerm) and connect it to the Cmod A7's serial port, using a baud rate of 9600.
-18. In the toolbar at the top of the SDK window, select **Xilinx -> Program FPGA**. Leave all fields as their defaults and click "Program".
-19. In the Project Explorer pane, right click on the "Cmod-A7-15T-OOB" application project and select "Run As -> Launch on Hardware (System Debugger)".
-20. The application will now be running on the Cmod A7. It can be interacted with as described in the first section of this README.
+16. Open a serial terminal application (such as TeraTerm) and connect it to the Cmod A7's serial port, using a baud rate of 9600.
+17. In the toolbar at the top of the SDK window, select **Xilinx -> Program FPGA**. Leave all fields as their defaults and click "Program".
+18. In the Project Explorer pane, right click on the "Cmod-A7-15T-OOB" application project and select "Run As -> Launch on Hardware (System Debugger)".
+19.The application will now be running on the Cmod A7. It can be interacted with as described in the first section of this README.
 
 Next Steps
 ----------
 This demo can be used as a basis for other projects by modifying the hardware platform in the Vivado project's block design or by modifying the SDK application project.
+
+Additional Notes
+--------------
+For more information on how this project is version controlled, refer to the [Digilent Vivado Scripts Repository](https://github.com/digilent/digilent-vivado-scripts)
+
