@@ -6,7 +6,7 @@ Description
 
 This project demonstrates how to use the Cmod A7-15T's Artix 7 FPGA's Microblaze processor with the SRAM, LED's, RGB LED's, Pushbuttons and the USB UART bridge. Vivado is used to build the demo's hardware platform, and Xilinx SDK is used to program the bitstream onto the board and to build and deploy a C application. 
 
-To use this demo, the Cmod A7-15T must be connected to a computer over MicroUSB, which must be running a serial terminal. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to [this tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
+To use this demo, the Cmod A7-35T must be connected to a computer over MicroUSB, which must be running a serial terminal. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to [this tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
 
 Whenever the demo is started from Vivado SDK, the board will go through a memory test and will print out the result to the serial terminal. Whenever one of the buttons is pressed, the line “Button Pressed” is sent. Every time BTN1 is pressed, the LED state changes. The user LEDs create a 2 bit binary counter that increments every time the button is pressed.  The RGB LED smoothly transitions between colors.
 
@@ -60,7 +60,7 @@ Demo Setup
 
 16. Open a serial terminal application (such as TeraTerm) and connect it to the Cmod A7's serial port, using a baud rate of 9600.
 17. In the toolbar at the top of the SDK window, select **Xilinx -> Program FPGA**. Leave all fields as their defaults and click "Program".
-18. In the Project Explorer pane, right click on the "Cmod-A7-15T-OOB" application project and select "Run As -> Launch on Hardware (System Debugger)".
+18. In the Project Explorer pane, right click on the "Cmod-A7-35T-OOB" application project and select "Run As -> Launch on Hardware (System Debugger)".
 19.The application will now be running on the Cmod A7. It can be interacted with as described in the first section of this README.
 
 Next Steps
