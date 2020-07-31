@@ -4,3 +4,4 @@
 [submodule "sw/scripts"]
 	path = sw/scripts
 	url = https://github.com/Digilent/digilent-vitis-scripts
+
